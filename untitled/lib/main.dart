@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
               }if (snapshot.data != null) { // Check if data is not null
                 return ProductList(products: snapshot.data!); // Use null check operator
               } else {
-                return Center(child: Text('No products found')); // Handle no data case
+                return Center(child: Text('No productos found')); // Handle no data case
               }
             },
           ),

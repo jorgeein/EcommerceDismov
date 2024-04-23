@@ -13,32 +13,32 @@ class ProductList extends StatefulWidget {
 
 class _ProductListState extends State<ProductList> {
   List<Product> _products = [];
-
-  @override
-  void initState() {
-    super.initState();
-
-    _fetchProducts();
-  }
-
   Future<void> _fetchProducts() async {
     final products = await ProductService().fetchProducts();
     setState(() {
       _products = products;
     });
   }
+  @override
+  void initState() {
+    super.initState();
+    _fetchProducts();
+  }
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemCount: _products.length,
-      itemBuilder: (context, index) {
-        final product = _products[index];
-        return ProductItem(product: product);
-      },
-    );
-  }
-}
+    if (widget.products.isEmpty) {
+      return Center(child: Text('No productooouss found')); // Handle empty list
+    } else {
+      return ListView.builder(
+        itemCount: widget.products.length,
+        itemBuilder: (context, index) {
+          final product = widget.products[index];
+          return ProductItem(product: product);
+        },
+      );
+    }
+  }}
 class ProductItem extends StatelessWidget {
   final Product product;
 
@@ -48,8 +48,8 @@ class ProductItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: ListTile(
-        leading: Image.network(product.imageUrl),
-        title: Text(product.name),
+        leading: Image.network(product.image),
+        title: Text(product.title),
         subtitle: Text('\$${product.price}'),
       ),
     );

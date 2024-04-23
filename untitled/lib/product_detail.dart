@@ -11,14 +11,14 @@ class ProductDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(product.name),
+        title: Text(product.title),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.network(product.imageUrl),
-            Text(product.name),
+            Image.network(product.title),
+            Text(product.title),
             Text('\$${product.price}'),
             Text(product.description),
           ],

@@ -1,19 +1,22 @@
+import 'dart:ffi';
+
 class Product {
-  final String name;
-  final String imageUrl;
-  final double price;
+  final String title;
+  final String image;
+  final int price;
   final String description;
 
   Product({
-    required this.name,
-    required this.imageUrl,
+    required this.title,
+    required this.image,
     required this.price,
     required this.description,
   });
   static Product fromJson(Map<String, dynamic> json) => Product(
-    name: json['name'] as String,
-    imageUrl: json['imageUrl'] as String,
-    price: json['price'] as double,
+    title: json['title'] as String,
+    image: json['image'] as String,
+    price: json['price'] as int,
     description: json['description'] as String,
   );
+
 }
