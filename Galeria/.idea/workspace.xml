@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52373dc7-50c9-4378-86b1-f7a840e3f394" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EcommerDismov/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/android/app/src/main/kotlin/com/example/untitled/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/android/app/src/main/kotlin/com/example/untitled/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/linux/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/linux/my_application.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/linux/my_application.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/macos/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/windows/flutter/generated_plugins.cmake" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2fU8juT2vKYj6IjBlrAq3zoBScz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52373dc7-50c9-4378-86b1-f7a840e3f394" name="Changes" comment="" />
+      <created>1713844436588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713844436588</updated>
+    </task>
+    <servers />
+  </component>
+</project>
