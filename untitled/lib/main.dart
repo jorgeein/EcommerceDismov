@@ -1,50 +1,56 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter/material.dart';
+import 'package:untitled/product_list.dart';
+import 'package:untitled/product_model.dart'; // Import the Product model
+import 'package:untitled/product_service.dart'; // Import the ProductService
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
 
-  // Define a list of image paths (replace with your actual image paths)
-  static const List<String> imagePaths = [
-    'assets/image1.jpg',
-    'assets/image2.png',
-    'assets/image3.jpeg',
-  ];
+class _MyAppState extends State<MyApp> {
+  Future<List<Product>>? _products;
+  @override
+  void initState() {
+    super.initState();
+    _fetchProducts();
+  }
+
+  Future<void> _fetchProducts() async {
+    final products = await ProductService().fetchProducts();
+    setState(() {
+      _products = Future.value(products); // Update state with fetched products
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Gallery',
+      title: 'E-commerce Gallery',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Image Gallery'),
+          title: const Text('E-commerce Gallery'),
         ),
-        body: GridView.count(
-          // Adjust crossAxisCount for desired number of images per row
-          crossAxisCount: 2,
-          children: imagePaths.map((imagePath) => _buildImageItem(imagePath)).toList(),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildImageItem(String imagePath) {
-    return InkWell(
-      onTap: () {
-        // Handle image tap event (optional)
-        // You can navigate to a detail screen or perform other actions here
-      },
-      child: Card(
-        clipBehavior: Clip.antiAlias,
-        child: Image.asset(
-          imagePath,
-          fit: BoxFit.cover,
-        ),
+          body: FutureBuilder<List<Product>>(
+            future: _products,
+            builder: (context, snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return Center(child: CircularProgressIndicator());
+              } else if (snapshot.hasError) {
+                return Center(child: Text('Error: ${snapshot.error}'));
+              }if (snapshot.data != null) { // Check if data is not null
+                return ProductList(products: snapshot.data!); // Use null check operator
+              } else {
+                return Center(child: Text('No products found')); // Handle no data case
+              }
+            },
+          ),
       ),
     );
   }
